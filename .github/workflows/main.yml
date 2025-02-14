@@ -26,4 +26,7 @@ jobs:
     - name: Deployment
       run: echo "Deploying application.."
 
+    - name: Use Secret Key
+      run: echo "Using secret key: ${{ secrets.DEPLOYMENT_KEY }}"
+
 
